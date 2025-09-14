@@ -1,0 +1,134 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+}
+
+html{
+    font-size: 62.5% ;
+    box-sizing: border-box;   
+}
+
+body{
+    font-size: 16px;
+    font-family: "Krub", sans-serif; /*tipo de letra*/
+}
+
+.curriculum{
+    background: #ccc;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hoja{
+    background: white;
+    width: 21cm;
+    padding: 2cm;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+}
+
+ .pie-pagina, 
+ .nav-bg{
+    background-color: var(--secundario);
+}
+
+.contenedor {
+    margin: 0 auto;
+    margin: 0 auto 0 auto; 
+    max-width: 120rem;
+}
+
+.navegacion-principal{
+    display: flex; 
+    flex-direction: column; 
+}
+
+@media(min-width: 768px) {  
+    .navegacion-principal{
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a{
+   display: block;
+   text-align: center; 
+   color: var(--blanco);
+   text-decoration: none;
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 3rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.educacion p, 
+.experiencia p{
+    line-height: 1.5;
+}
+
+.pie-pagina{
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+}
+
+.footer-link {
+    display: flex;               
+    gap: 2rem;                 
+    font-size: 3rem;             
+    font-weight: bold;           
+    text-decoration: none; 
+    color: var(--blanco);      
+}
+
+.footer-link svg{
+    color: #212121;
+}
+
+/*PORTAFOLIO*/
+#Hero-Section {
+  background-image: url("../imagenes/valor-developer-imagen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  min-height: 50vh;
+}
+
+.titulo{
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
