@@ -35,6 +35,13 @@ body{
     background-color: var(--secundario);
 }
 
+.nav-bg{
+    position: fixed; 
+    top:0; 
+    left:0; 
+    width:100%
+}
+
 .contenedor {
     margin: 0 auto;
     margin: 0 auto 0 auto; 
